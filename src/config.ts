@@ -6,17 +6,14 @@ export const isProd = MODE === "production";
 export const pageSize = 10;
 
 export const siteInfo = {
-    siteName: "Art Theme",
-    siteDesc: "A Beautiful Blog To Record Life !",
-    lang: "en-us",
+    siteName: "DifusorAromas.com ",
+    siteDesc: "Aromaterapia para tu Bienestar",
+    lang: "es-es",
     icon: "https://picsum.photos/96",
     avatar: "https://picsum.photos/96",
     github: "https://github.com/npmrun/art-theme",
     get hero() {
-        return (
-            "https://picsum.photos/1280/780?random=" +
-            Math.random() * 1000
-        );
+        return "https://picsum.photos/1280/780?random=" + Math.random() * 1000;
     },
     heroPosition: "center",
     startTime: "6/8/2022 10:28:00",
@@ -59,16 +56,14 @@ export const settings = {
             name: "Demo",
             desc: "Some Demo",
             image:
-                "https://picsum.photos/290/80?random=" +
-                Math.random() * 1000,
+                "https://picsum.photos/290/80?random=" + Math.random() * 1000,
             order: 1,
         },
         {
             name: "Astro",
             desc: "Astro Theme",
             image:
-                "https://picsum.photos/290/80?random=" +
-                Math.random() * 1000,
+                "https://picsum.photos/290/80?random=" + Math.random() * 1000,
             order: 2,
         },
     ],
